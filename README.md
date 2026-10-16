@@ -72,7 +72,7 @@ I actively contribute upstream to foundational machine learning frameworks, dist
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
         <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
         <img src="https://img.shields.io/badge/SARIF-v2.1.0-purple?style=flat-square" />
-        <img src="https://img.shields.io/badge/CLI-Click-black?style=flat-square" />
+        <img src="https://img.shields.io/badge/Security-Red_Teaming-red?style=flat-square" />
       </p>
     </td>
   </tr>
