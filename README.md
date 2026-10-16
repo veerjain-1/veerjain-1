@@ -1,16 +1,16 @@
 <div align="center">
 
 # Hi, I'm Veer Jain 👋
-### Distributed Systems • AI Systems & Security • High-Throughput Telemetry
+### Distributed Systems • ML Infrastructure & High-Throughput Data Pipelines
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-veerjain--1.github.io-0ea5e9?style=for-the-badge&logo=react&logoColor=white)](https://veerjain-1.github.io/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Veer_Jain-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veer-jain/)
-[![GitHub](https://img.shields.io/badge/GitHub-veerjain--1-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/veerjain-1)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0284c7?style=for-the-badge&logo=react&logoColor=white)](https://veerjain-1.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerjain1/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:veer.spam.jain@gmail.com)
 
 <br/>
 
-**Undergraduate in Computer Science @ Purdue University**  
-*Incoming SDE Intern @ AWS (Summer 2026) • Ex-Lockheed Martin • Ex-Textron Systems • Ex-John Deere*
+**Computer Science & Artificial Intelligence (Double Major) @ Purdue University**  
+*Ex-AWS • Ex-Lockheed Martin • Ex-Textron • Ex-John Deere*
 
 </div>
 
@@ -18,50 +18,65 @@
 
 ### 🚀 About Me
 
-I specialize in **distributed systems**, **low-latency inference**, and **autonomous agent security & evaluation**. I enjoy taking complex engineering challenges down to their first principles—whether that's parsing gigabyte-scale autonomous vehicle MCAP telemetry, routing real-time CodeBERT inference through a Rust/gRPC engine, or designing multi-agent red-teaming pipelines that uncover production infrastructure vulnerabilities.
+I'm a systems engineer and builder focused on **distributed systems**, **ML infrastructure**, and **high-throughput data pipelines**. I enjoy taking complex engineering challenges down to their first principles—whether that's serving real-time **CodeBERT inference through a Rust gRPC engine**, building distributed event-driven pipelines over **Apache Kafka**, or designing sub-millisecond deterministic security & reliability evaluation frameworks for autonomous AI agents.
 
-- 🔭 **Current Focus:** Sub-50ms inference microservices, deterministic agent evaluation frameworks, and event-driven architectures.
-- 🛠️ **Industry Experience:**
-  - **Amazon Web Services (AWS)** — SDE Intern (Summer '26): AI Security Analyzer, multi-agent red-teaming, deterministic eval frameworks.
-  - **Lockheed Martin** — SWE Intern: Real-time ML inference platform, defense-grade microservices, PySpark telemetry streaming over Kafka.
-  - **Textron Systems** — SWE Intern: Warfare simulator threat detection algorithms, sensor telemetry indexing.
-  - **John Deere** — ML Research Engineer Intern: Time-series forecasting and inventory optimization.
-- 🌐 **Open Source:** Active upstream contributor to [Microsoft VS Code Containers](https://github.com/microsoft/vscode-containers), [Uber Cadence Workflow](https://github.com/cadence-workflow/cadence), [Microsoft Semantic Kernel](https://github.com/microsoft/semantic-kernel), and [LlamaIndex](https://github.com/run-llama/llama_index).
+- 🔭 **Current Focus:** Distributed systems, low-latency microservices, ML inference infrastructure, scalable backend architectures, and AI agent evaluation & security.
+- 💡 **Engineering Philosophy:** Building high-performance, resilient software that scales horizontally, minimizes latency overhead, and operates reliably under heavy production workloads.
 
 ---
 
-### 🌟 Featured Systems & Projects
+### 🌐 Open Source Contributions
+
+I actively contribute upstream to foundational machine learning frameworks, distributed workflow engines, and developer tooling:
+
+| Project | PR | Summary | Impact / Domain |
+|:---|:---:|:---|:---|
+| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | [#125400](https://github.com/tensorflow/tensorflow/pull/125400) | Added bounds check on `seq_len_max` in BlockLSTM ops to prevent out-of-bounds memory access | **Merged** • Deep Learning C++ Kernel Safety |
+| **[pytorch/pytorch](https://github.com/pytorch/pytorch)** | [#194259](https://github.com/pytorch/pytorch/pull/194259) | Resolved `FileStore` descriptor leak during c10d distributed rendezvous initialization | Distributed PyTorch Rendezvous & Systems |
+| **[microsoft/vscode](https://github.com/microsoft/vscode)** | [#333418](https://github.com/microsoft/vscode/pull/333418) | Refactored `AsyncIterableObject` to `AsyncIterableProducer` to prevent memory leaks | Core Editor Runtime & Memory Profiling |
+| **[ml-explore/mlx](https://github.com/ml-explore/mlx)** | [#4256](https://github.com/ml-explore/mlx/pull/4256) | Fixed out-of-bounds read vulnerability in GGUF metadata parser | Apple Silicon ML Runtime Safety |
+| **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** | [#14284](https://github.com/microsoft/semantic-kernel/pull/14284) | Implemented Vertex AI `:batchEmbedContents` routing for `gemini-embedding` models | LLM Embedding Infrastructure |
+| **[cadence-workflow/cadence](https://github.com/cadence-workflow/cadence)** | [#8525](https://github.com/cadence-workflow/cadence/pull/8525) | Replaced fixed sleeps with concurrent domain notification polling in integration tests | Distributed Orchestration CI Acceleration |
+| **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | [#23127](https://github.com/run-llama/llama_index/pull/23127) | Parallelized recursive retrieval using concurrent `run_jobs` while preserving exact rank order | Query Retrieval Latency Optimization |
+| **[microsoft/vscode-containers](https://github.com/microsoft/vscode-containers)** | [#598](https://github.com/microsoft/vscode-containers/pull/598) | Added Docker Compose `pull` support across palettes, context menus, and tree views | Cloud Developer Environments |
+| **[visgl/deck.gl](https://github.com/visgl/deck.gl)** | [#10555](https://github.com/visgl/deck.gl/pull/10555) | Added defensive projection handling in `getProjection` before map style load events | WebGL Large-Scale Data Visualization |
+| **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** | [#3146](https://github.com/kirodotdev/KiroCrew/pull/3146) | Bounded interpreter probe with POSIX watchdog to prevent hangs on macOS | **Merged** • CLI Tooling & Process Safety |
+
+---
+
+### 🌟 Featured Systems & Architectures
 
 <table>
   <tr>
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/veerjain-1/code-anomaly-engine">code-anomaly-engine</a></h3>
-      <p><strong>Real-time Code Anomaly & Vulnerability Detection Engine</strong></p>
+      <p><strong>Real-time Code Anomaly & Vulnerability Detection Platform</strong></p>
       <ul>
         <li>Polyglot event-driven microservices architecture in <strong>Go + Rust + Kafka + React</strong>.</li>
-        <li>Sub-50ms ML inference via custom-trained <strong>CodeBERT</strong> exported with dynamic axes running on <strong>ONNX Runtime (ort)</strong> in Rust over <strong>gRPC</strong>.</li>
-        <li>Buffered through Apache Kafka (KRaft mode) with live WebSocket streaming to a real-time metrics dashboard.</li>
+        <li>Sub-50ms ML inference via custom-trained <strong>CodeBERT</strong> exported with dynamic axes running on <strong>ONNX Runtime</strong> in Rust over <strong>gRPC</strong>.</li>
+        <li>Buffered through Apache Kafka (KRaft mode) with live WebSocket streaming to an analytics dashboard.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
         <img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust&logoColor=white" />
         <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
         <img src="https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white" />
+        <img src="https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=grpc&logoColor=white" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🚗 <a href="https://github.com/veerjain-1/av-drive-triage">av-drive-triage</a></h3>
-      <p><strong>Autonomous Vehicle Drive Log & Telemetry Triage Platform</strong></p>
+      <h3>🔍 <a href="https://github.com/veerjain-1/agent-guard-eval">agent-guard-eval</a></h3>
+      <p><strong>Deterministic Security, Guardrail & Eval Framework for AI Agents</strong></p>
       <ul>
-        <li>Parses multi-gigabyte <strong>nuScenes MCAP</strong> drive logs to detect unexplained decelerations, cut-ins, and obstacle near-misses.</li>
-        <li>Synchronizes 3D ego-pose coordinate transforms with forward camera JPEG frames on a unified time axis.</li>
-        <li>Rules-first triage queue with automated Markdown escalation reports and false-positive label generation.</li>
+        <li>Sub-millisecond trace evaluation engine eliminating flaky and costly "LLM-as-a-judge" overhead.</li>
+        <li>Deterministic rules detecting infinite execution loops, schema drift, command injection, path traversal, and credential leakage.</li>
+        <li>Adversarial prompt injection fuzzer and native <strong>SARIF v2.1.0</strong> export for GitHub Security alerts.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-        <img src="https://img.shields.io/badge/MCAP-Telemetry-orange?style=flat-square" />
+        <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" />
+        <img src="https://img.shields.io/badge/SARIF-v2.1.0-purple?style=flat-square" />
+        <img src="https://img.shields.io/badge/CLI-Click-black?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -87,29 +102,17 @@ I specialize in **distributed systems**, **low-latency inference**, and **autono
       <ul>
         <li>Supervised fine-tuning (SFT) pipeline on financial datasets utilizing <strong>PyTorch</strong> and <strong>Hugging Face Transformers</strong>.</li>
         <li>Leverages Apple <strong>Metal Performance Shaders (MPS)</strong> for 7x–10x local training acceleration over CPU.</li>
-        <li>Domain-adapted retrieval-augmented generation (RAG) with vector embeddings for complex financial QA.</li>
+        <li>Domain-adapted retrieval-augmented generation (RAG) with FAISS vector indexing for high-precision financial QA.</li>
       </ul>
       <p>
         <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
         <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+        <img src="https://img.shields.io/badge/FAISS-Vector_Search-blue?style=flat-square" />
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
       </p>
     </td>
   </tr>
 </table>
-
----
-
-### 🌐 Open Source Contributions
-
-I contribute upstream to open-source developer tooling, distributed orchestrators, and AI frameworks:
-
-| Project | PR | Summary | Impact |
-|:---|:---:|:---|:---|
-| **[microsoft/vscode-containers](https://github.com/microsoft/vscode-containers)** | [#598](https://github.com/microsoft/vscode-containers/pull/598) | Contributed Docker Compose `pull` support across palettes, context menus, and tree views with automated unit tests | Closes feature gap across Docker/Podman/Finch Compose runtimes |
-| **[cadence-workflow/cadence](https://github.com/cadence-workflow/cadence)** | [#8525](https://github.com/cadence-workflow/cadence/pull/8525) | Replaced fixed integration test sleeps with concurrent domain registration and persistence notification polling | Accelerates integration CI suites; approved by maintainers |
-| **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** | [#14284](https://github.com/microsoft/semantic-kernel/pull/14284) | Implemented Vertex AI `:batchEmbedContents` routing for `gemini-embedding-*` models | Unlocks modern Gemini embedding models in Semantic Kernel .NET |
-| **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | [#23127](https://github.com/run-llama/llama_index/pull/23127) | Parallelized recursive retrieval using concurrent `run_jobs` while preserving exact node ranking | Significantly reduces recursive query retrieval latency |
 
 ---
 
@@ -120,15 +123,15 @@ I contribute upstream to open-source developer tooling, distributed orchestrator
 | Category | Technologies |
 |:---|:---|
 | **Languages** | `Go` • `Rust` • `Python` • `Java` • `C++` • `C` • `TypeScript` • `JavaScript` • `SQL` |
-| **Distributed & Cloud** | `Apache Kafka` • `AWS (Bedrock, Fargate, CDK, DynamoDB)` • `Azure` • `Docker` • `Kubernetes` • `gRPC / Protobuf` • `Redis` |
-| **AI / ML & Evals** | `PyTorch` • `ONNX Runtime` • `CodeBERT` • `Hugging Face` • `LangGraph` • `LangChain` • `Agent Red-Teaming` • `Deterministic Evals` |
-| **Data & Storage** | `PostgreSQL` • `MongoDB` • `Apache Spark` • `nuScenes (MCAP)` • `MySQL` |
-| **Frontend & Visualization** | `React` • `Tailwind CSS` • `Framer Motion` • `Recharts` • `Vite` |
+| **Distributed & Cloud** | `Apache Kafka` • `AWS (Bedrock, Fargate, CDK, DynamoDB)` • `Docker` • `Kubernetes` • `gRPC / Protobuf` • `Redis` |
+| **ML Infrastructure & Evals** | `PyTorch` • `ONNX Runtime` • `CodeBERT` • `Hugging Face` • `LangGraph` • `Deterministic Evals` • `Red-Teaming` |
+| **Databases & Storage** | `PostgreSQL` • `MongoDB` • `Apache Spark` • `FAISS` • `MySQL` |
+| **Frontend & UI** | `React` • `Tailwind CSS` • `Framer Motion` • `Recharts` • `Vite` |
 
 </div>
 
 ---
 
 <div align="center">
-  <sub>Built with care by <a href="https://github.com/veerjain-1">Veer Jain</a> • Check out my interactive portfolio at <a href="https://veerjain-1.github.io/">veerjain-1.github.io</a></sub>
+  <sub>Built with care by <a href="https://github.com/veerjain-1">Veer Jain</a> • Explore more on my <a href="https://veerjain-1.github.io/">Portfolio</a></sub>
 </div>
