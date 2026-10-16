@@ -1,7 +1,7 @@
 <div align="center">
 
 # Hi, I'm Veer Jain 👋
-### Distributed Systems • ML Infrastructure & High-Throughput Data Pipelines
+### Distributed Systems • AI Systems & Security • High-Throughput Pipelines
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0284c7?style=for-the-badge&logo=react&logoColor=white)](https://veerjain-1.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/veerjain1/)
@@ -29,18 +29,14 @@ I'm a systems engineer and builder focused on **distributed systems**, **ML infr
 
 I actively contribute upstream to foundational machine learning frameworks, distributed workflow engines, and developer tooling:
 
-| Project | PR | Summary | Impact / Domain |
+| Project | PR | Technical Contribution | Domain / Subsystem |
 |:---|:---:|:---|:---|
-| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | [#125400](https://github.com/tensorflow/tensorflow/pull/125400) | Added bounds check on `seq_len_max` in BlockLSTM ops to prevent out-of-bounds memory access | **Merged** • Deep Learning C++ Kernel Safety |
-| **[pytorch/pytorch](https://github.com/pytorch/pytorch)** | [#194259](https://github.com/pytorch/pytorch/pull/194259) | Resolved `FileStore` descriptor leak during c10d distributed rendezvous initialization | Distributed PyTorch Rendezvous & Systems |
-| **[microsoft/vscode](https://github.com/microsoft/vscode)** | [#333418](https://github.com/microsoft/vscode/pull/333418) | Refactored `AsyncIterableObject` to `AsyncIterableProducer` to prevent memory leaks | Core Editor Runtime & Memory Profiling |
-| **[ml-explore/mlx](https://github.com/ml-explore/mlx)** | [#4256](https://github.com/ml-explore/mlx/pull/4256) | Fixed out-of-bounds read vulnerability in GGUF metadata parser | Apple Silicon ML Runtime Safety |
+| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | [#125400](https://github.com/tensorflow/tensorflow/pull/125400) | Added bounds check on `seq_len_max` in BlockLSTM ops to prevent out-of-bounds memory access | Deep Learning C++ Kernel Safety |
 | **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** | [#14284](https://github.com/microsoft/semantic-kernel/pull/14284) | Implemented Vertex AI `:batchEmbedContents` routing for `gemini-embedding` models | LLM Embedding Infrastructure |
-| **[cadence-workflow/cadence](https://github.com/cadence-workflow/cadence)** | [#8525](https://github.com/cadence-workflow/cadence/pull/8525) | Replaced fixed sleeps with concurrent domain notification polling in integration tests | Distributed Orchestration CI Acceleration |
+| **[cadence-workflow/cadence](https://github.com/cadence-workflow/cadence)** | [#8525](https://github.com/cadence-workflow/cadence/pull/8525) | Replaced fixed sleeps with concurrent domain notification polling in integration tests | Distributed Orchestration CI Engine |
 | **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | [#23127](https://github.com/run-llama/llama_index/pull/23127) | Parallelized recursive retrieval using concurrent `run_jobs` while preserving exact rank order | Query Retrieval Latency Optimization |
 | **[microsoft/vscode-containers](https://github.com/microsoft/vscode-containers)** | [#598](https://github.com/microsoft/vscode-containers/pull/598) | Added Docker Compose `pull` support across palettes, context menus, and tree views | Cloud Developer Environments |
-| **[visgl/deck.gl](https://github.com/visgl/deck.gl)** | [#10555](https://github.com/visgl/deck.gl/pull/10555) | Added defensive projection handling in `getProjection` before map style load events | WebGL Large-Scale Data Visualization |
-| **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** | [#3146](https://github.com/kirodotdev/KiroCrew/pull/3146) | Bounded interpreter probe with POSIX watchdog to prevent hangs on macOS | **Merged** • CLI Tooling & Process Safety |
+| **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** | [#3146](https://github.com/kirodotdev/KiroCrew/pull/3146) | Bounded interpreter probe with POSIX watchdog to prevent hangs on macOS | CLI Tooling & Process Safety |
 
 ---
 
