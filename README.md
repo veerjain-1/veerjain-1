@@ -31,7 +31,7 @@ I actively contribute upstream to foundational machine learning frameworks, dist
 
 | Project | PR / Review | Technical Contribution | Domain / Subsystem |
 |:---|:---:|:---|:---|
-| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | [#125400](https://github.com/tensorflow/tensorflow/pull/125400) | Added bounds check on `seq_len_max` in BlockLSTM ops to prevent out-of-bounds memory access | Deep Learning C++ Kernel Safety |
+| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | [#125400](https://github.com/tensorflow/tensorflow/pull/125400) | Strengthened BlockLSTM `seq_len_max` bounds-validation tests and error handling | Deep Learning C++ Kernel Safety |
 | **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** | [#14284](https://github.com/microsoft/semantic-kernel/pull/14284) | Fixed Vertex AI `:embedContent` routing while preserving the legacy embedding path | LLM Embedding Infrastructure |
 | **[cadence-workflow/cadence](https://github.com/cadence-workflow/cadence)** | [#8525](https://github.com/cadence-workflow/cadence/pull/8525) | Replaced fixed sleeps with domain-registration polling in integration tests | Distributed Orchestration CI Engine |
 | **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | [#23127](https://github.com/run-llama/llama_index/pull/23127) | Parallelized recursive retrieval using concurrent `run_jobs` while preserving exact rank order | Query Retrieval Latency Optimization |
