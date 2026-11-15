@@ -29,15 +29,15 @@ I'm a systems engineer and builder focused on **distributed systems**, **ML infr
 
 I actively contribute upstream to foundational machine learning frameworks, distributed workflow engines, and developer tooling:
 
-| Project | PR / Review | Technical Contribution | Domain / Subsystem | Status |
-|:---|:---:|:---|:---|:---|
-| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | [#125400](https://github.com/tensorflow/tensorflow/pull/125400) | Added bounds check on `seq_len_max` in BlockLSTM ops to prevent out-of-bounds memory access | Deep Learning C++ Kernel Safety | Merged |
-| **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** | [#14284](https://github.com/microsoft/semantic-kernel/pull/14284) | Fixed Vertex AI `:embedContent` routing while preserving the legacy embedding path | LLM Embedding Infrastructure | Open PR |
-| **[cadence-workflow/cadence](https://github.com/cadence-workflow/cadence)** | [#8525](https://github.com/cadence-workflow/cadence/pull/8525) | Replaced fixed sleeps with domain-registration polling in integration tests | Distributed Orchestration CI Engine | Open PR |
-| **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | [#23127](https://github.com/run-llama/llama_index/pull/23127) | Parallelized recursive retrieval using concurrent `run_jobs` while preserving exact rank order | Query Retrieval Latency Optimization | Open PR |
-| **[microsoft/vscode-containers](https://github.com/microsoft/vscode-containers)** | [#598](https://github.com/microsoft/vscode-containers/pull/598) | Added Docker Compose `pull` support across palettes, context menus, and tree views | Cloud Developer Environments | Open PR |
-| **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** | [#3146](https://github.com/kirodotdev/KiroCrew/pull/3146) | Bounded interpreter probe with POSIX watchdog to prevent hangs on macOS | CLI Tooling & Process Safety | Merged |
-| **[uber-go/zap](https://github.com/uber-go/zap)** | [Review #1606](https://github.com/uber-go/zap/pull/1606#pullrequestreview-5909120278) | Independently tested empty-group logging fix: failing-before regression, race tests, and six JSON comparisons against Go’s standard logger | Structured Logging / Go `slog` | Submitted review |
+| Project | PR / Review | Technical Contribution | Domain / Subsystem |
+|:---|:---:|:---|:---|
+| **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** | [#125400](https://github.com/tensorflow/tensorflow/pull/125400) | Added bounds check on `seq_len_max` in BlockLSTM ops to prevent out-of-bounds memory access | Deep Learning C++ Kernel Safety |
+| **[microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)** | [#14284](https://github.com/microsoft/semantic-kernel/pull/14284) | Fixed Vertex AI `:embedContent` routing while preserving the legacy embedding path | LLM Embedding Infrastructure |
+| **[cadence-workflow/cadence](https://github.com/cadence-workflow/cadence)** | [#8525](https://github.com/cadence-workflow/cadence/pull/8525) | Replaced fixed sleeps with domain-registration polling in integration tests | Distributed Orchestration CI Engine |
+| **[run-llama/llama_index](https://github.com/run-llama/llama_index)** | [#23127](https://github.com/run-llama/llama_index/pull/23127) | Parallelized recursive retrieval using concurrent `run_jobs` while preserving exact rank order | Query Retrieval Latency Optimization |
+| **[microsoft/vscode-containers](https://github.com/microsoft/vscode-containers)** | [#598](https://github.com/microsoft/vscode-containers/pull/598) | Added Docker Compose `pull` support across palettes, context menus, and tree views | Cloud Developer Environments |
+| **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** | [#3146](https://github.com/kirodotdev/KiroCrew/pull/3146) | Bounded interpreter probe with POSIX watchdog to prevent hangs on macOS | CLI Tooling & Process Safety |
+| **[uber-go/zap](https://github.com/uber-go/zap)** | [Review #1606](https://github.com/uber-go/zap/pull/1606#pullrequestreview-5909120278) | Independently tested empty-group logging fix: failing-before regression, race tests, and six JSON comparisons against Go’s standard logger | Structured Logging / Go `slog` |
 
 ---
 
