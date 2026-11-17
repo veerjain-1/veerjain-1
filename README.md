@@ -39,6 +39,8 @@ I actively contribute upstream to foundational machine learning frameworks, dist
 | **[kirodotdev/KiroCrew](https://github.com/kirodotdev/KiroCrew)** | [#3146](https://github.com/kirodotdev/KiroCrew/pull/3146) | Bounded interpreter probe with POSIX watchdog to prevent hangs on macOS | CLI Tooling & Process Safety |
 | **[uber-go/zap](https://github.com/uber-go/zap)** | [Review #1606](https://github.com/uber-go/zap/pull/1606#pullrequestreview-5909120278) | Independently tested empty-group logging fix: failing-before regression, race tests, and six JSON comparisons against Go’s standard logger | Structured Logging / Go `slog` |
 
+| **[huggingface/huggingface_hub](https://github.com/huggingface/huggingface_hub)** | [Review #5358](https://github.com/huggingface/huggingface_hub/pull/5358#pullrequestreview-5935775569) | Reviewed paper-metadata deserialization fix; verified nested API responses, zero/empty values, and a failing-before regression | ML Research Discovery / Python SDK Review |
+
 ---
 
 ### 🌟 Featured Systems & Architectures
